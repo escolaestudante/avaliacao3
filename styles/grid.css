@@ -11,22 +11,37 @@
     margin-top: 25px;
     position: inherit;
 }
+
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
 .titulo{
     font-size: 10px;
     color: rgb(26, 6, 44);
     margin-bottom: 7px;
     text-align: center;
 }
-
+.container__botao{
+    display: none;
+}
 @media screen and (min-width: 1024px) {
-    .gridimg{
-       background-color: rgb(210, 253, 19);
+    .titulo{
+        display: block;
+        font-size: 20px;
     }
-    .opcoes__item{
-        padding: 0 1em;
-    }
-    .opcoes__link{
-        text-decoration: none;
-        color: var(--preto);
-    }
+   .Imagem{
+    height: 10px;
+    border-top: 10px groove rgb(173, 0, 179);
+    border-bottom: 10px groove rgb(147, 180, 0);
+    width: 180px!important;
+    height: 160px!important;
+
    }
+   .titulo__cabeçalho{
+    font-size: 30px;
+    font-family: oswald;
+    color: rgb(4,107, 1);
+    display: block;}
+   }
+   
