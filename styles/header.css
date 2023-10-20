@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -15,6 +14,10 @@
     position: relative;
 
 }
+.logo__costa{
+    width: 44px;
+    height: 44px;
+}
 .container{
     display: flex;
     align-items: center;
@@ -22,19 +25,13 @@
 .container__imagem{
     padding: 1em;
 }
-
 .lista-menu{
     display: none;
     position: absolute;
     top: 100%;
     background-color: var(--branco);
     width: 60vw;
-
 }
-.container__botao{
-    display: none;
-}
-
 .container__botao:checked~ .lista-menu{
     display: block;
 }
@@ -49,6 +46,10 @@
     background-clip: text;
     text-transform: uppercase;
 }
+.container__botao{
+    display: none;
+}
+
 .lista-menu__titulo, .lista-menu__item{
     padding: item;
     background-color: var(--branco);
@@ -64,21 +65,28 @@
 }
 
 @media screen and (min-width:1024px) {
-    .titulo__cabecalho{
-font-size: 30;
-font-family: Oswald;
-color: rgb(4, 107, 1);
-display: block;}
-
+   .container__titulo, .container__titulo--negrito{
+    font-family: var(--fonte secundaria);
+    font-size: 30px;
+}
+.container__titulo{
+    font-weight: 400;
+    display: block;
+}
+.container__titulo--negrito{
+    font-weight: 700;
+}
 .opcoes{
     display: flex;
 }
 .opcoes__item{
     padding: 0 1em;
+    list-style: none;
 }
 .opcoes_link{
     text-decoration: none;
     color: var(--preto);
+
 }
 .container__imagem-transparente{
     display: none;

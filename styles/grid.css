@@ -1,6 +1,6 @@
 
 .Imagem{
-    border-top: 10px groove rgb(73, 5, 82);
+    border-top: 10px groove rgb(181, 190, 98);
     width: 170px!important;
     height: 150px!important;
 }
@@ -18,7 +18,7 @@
 }
 .titulo{
     font-size: 10px;
-    color: rgb(26, 6, 44);
+    color: rgb(7, 5, 26);
     margin-bottom: 7px;
     text-align: center;
 }
